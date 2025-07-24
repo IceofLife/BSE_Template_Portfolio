@@ -1,4 +1,4 @@
-# 4-Axis Robot Controllable with a Controller
+# 3-Axis Robot Controllable with a Controller
 <!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
@@ -11,7 +11,7 @@
 
 
 
-<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 [Headstone Image](logo.svg)
   
@@ -20,6 +20,7 @@
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -33,7 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C04c24L3rZs?si=wcfEC1ZqMgOoWi13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -47,11 +48,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fcs9LTFBgY0?si=erYTSkbg2V_--Qbf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+I plan for this project to become a 4-axis robot with a 4th axis on the wrist. I also plan to fix various bugs with the robot spazzing out. My project includes 3 SG90 Servo motors and an MG996R Servo for the base roundtable. It also includes various acrylic pieces for the robot chassis, an acrylic wrist module, and several screws and threaded pieces. So far, I've put together the robot and it is now capable of functioning however the base roundtable frequently jams and the robot seems to spazz out weirdly. Along with this, the various modules of the arm stop really abruptly causing a large momentum transfer to the entire robot (basically causing it to rock back and forth at any quick joint movement. I also broke one of the pieces that came with the kit so I had to 3D print and CAD a replica piece for the base in order to fix this issue. My dreams of adding a 4th axis must be put on hold for now as I've noticed, after testing, that my base module is practically at its limit torque wise so adding extra weight would make it dysfunctional. I plan to add higher torque servos for the base so that I can mount my planned 4th axis and also so, or so I hypothesize, that my arm is able to resist more quick movements and the momentum transfer as a result of those quick movements. I also plan to fix the issue with the base jamming of which I am still unsure of what causes this malfunction.
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
