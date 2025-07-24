@@ -59,16 +59,150 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#include <Arduino.h>    
+#include <Servo.h>
+#include <Ramp.h>
+
+int dz = 30; //deadzone
+
+
+
+Servo Base;
+Servo Shoulder;
+Servo Elbow; 
+Servo Gripper;
+
+ramp Rbase;
+ramp Rshoulder;
+ramp Relbow;
+ramp Rgripper;
+
+
+
+int velocity = 60;
+
+float oldBase = 90;
+float oldShoulder = 90;
+float oldElbow = 90;
+float oldGripper = 90;
+
+float currentBase;
+float currentShoulder;
+float currentElbow;
+float currentGripper;
+
+float joystickPin;         
+float Joystick;     
+
+
+float duration;
+
+int JoystickCheck() {
+ // Serial.println(2);
+  if (abs(analogRead(0)-512) > dz){
+    return 0;
+  } else if (abs(analogRead(1)-512) > dz) {
+    return 1;
+  } else if (abs(analogRead(2)-512) > dz){
+    return 2;
+  } else if (abs(analogRead(3)-512) > dz) {
+    return 3;
+  } else {
+    return JoystickCheck();
+  }
 }
+
+
+
+void JoystickUpdate() {
+  //Serial.println(3);
+  joystickPin = JoystickCheck(); 
+  Joystick = analogRead(joystickPin);
+  Joystick = map(Joystick, 0, 1023, 0, 180 );
+  if (joystickPin == 0) {
+  duration = min(1000*(abs(Joystick-oldBase))/velocity,800); 
+  Rbase.go (Joystick,duration,EXPONENTIAL_OUT, ONCEFORWARD);  //starts interpolation towards that point
+  //Serial.println(currentBase);
+} else if (joystickPin == 1) {
+  duration = min(1000*(abs(Joystick-oldShoulder))/velocity,800); 
+  Rshoulder.go (Joystick,duration,EXPONENTIAL_OUT, ONCEFORWARD);
+} else if (joystickPin == 2) {
+  duration = min(1000*(abs(Joystick-oldElbow))/velocity,800); 
+  Relbow.go (Joystick,duration,EXPONENTIAL_OUT, ONCEFORWARD);
+} else if (joystickPin == 3) {
+  duration = min(1000*(abs(Joystick-oldGripper))/velocity,800); 
+  Rgripper.go (Joystick,duration, CUBIC_OUT, ONCEFORWARD);
+} else  {
+  return JoystickCheck();
+} 
+ 
+}
+void servoUpdate() {
+//Serial.println(4);
+   currentBase = Rbase.update();
+  currentShoulder = Rshoulder.update();
+  currentElbow = Relbow.update();
+  currentGripper = Rgripper.update();
+  //Serial.println(joystickPin);
+ if (joystickPin == 0 && abs(currentBase-oldBase) >= 2) {
+  Base.write(round(currentBase));
+  oldBase = currentBase;
+} else if (joystickPin == 1 && abs(currentShoulder-oldShoulder) >= 2) {
+  Shoulder.write(round(currentShoulder));
+  oldShoulder = currentShoulder;
+} else if (joystickPin == 2 && abs(currentElbow-oldElbow) >= 2) {
+  Elbow.write(round(currentElbow));
+  oldElbow = currentElbow;
+} else if (joystickPin == 3 && abs(currentGripper-oldGripper) >= 2) {
+  Serial.println(currentGripper);
+  Gripper.write(round(currentGripper));
+  oldGripper = currentGripper;
+} else  {
+  return;
+} 
+
+
+}
+
+
+
+
+
+
+void setup() {
+  Serial.begin(9600);
+  //Serial.println(1);
+ Rbase.setGrain(20);
+ Rshoulder.setGrain(20);
+ Relbow.setGrain(20);
+ Rgripper.setGrain(20);
+
+  Base.attach(4);
+  delay(10);
+  Shoulder.attach(5);
+  delay(10);
+  Elbow.attach(6);
+  delay(10);
+  Gripper.attach(7);
+  
+  Base.write(90);
+  Shoulder.write(90);
+  Elbow.write(90);
+  Gripper.write(90);
+}
+
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+ JoystickUpdate();
+ delay(100);
+ //Serial.println(duration);
+ servoUpdate();
+ 
+ 
+ 
+ 
 }
+
 ```
 
 # Bill of Materials
