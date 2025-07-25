@@ -35,11 +35,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C04c24L3rZs?si=wcfEC1ZqMgOoWi13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone -->
+I have added the 2 high torque servos at the shoulder and elbow joints and I've started to code something to smooth servo motions through a method called numerical interpolation. Essentially, there are an infinite amount of points between two points and an infinite amount of ways to get between those two points. So, essentially, what numerical interpolation does is that it uses a velocity function of sorts to create the different "steps" needed to give the illusion of smooth servo motion. I can also make it simulate different types of interpolation. For example, I can use quadratic or sinusoidal or exponential..etc.. Going back to the more mechanical aspects of this project, I attached the servos but I was surprised to find them spinning on their own axises. I figured this was due to an inability to counteract the reactive forces within a motor and so I plan to add servo brackets to my design in the future. I overcame the base jamming as it turns out it was just a result of overtightening the servo screw. I also think my hypothesis on servo smoothness depending on the quality of servo was correct as when I tried to hold the motors in place and then move the arm it seemed to rotate the joint with minimal wobble and no spazzing. For my final milestone, I need to complete the servo brackets for my arm along with the numerical interpolation code for the robot.
+
 
 # First Milestone
 
