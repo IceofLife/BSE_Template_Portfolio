@@ -53,7 +53,7 @@ I plan for this project to become a 4-axis robot with a 4th axis on the wrist. I
 
 
 # Schematics 
-[3D Print Schematic](3dprintschem.png) [Circuit Schematic](circuitschematic.png)
+[3D Print Schematic](3dprintschem.png)      [Circuit Schematic](circuitschematic.png)
 # Code
 
 ```c++
