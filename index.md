@@ -1,6 +1,5 @@
-# 3-Axis Robot Controllable with a Controller
-<!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
-
+#Smooth High Torque 3-Axis Robot Controllable with a Controller
+My project is a high torque 3-axis robot which is controllable via two joysticks and uses something called numerical interpolation to smooth servo motions. Along with this, it is powered by a 12V 6A power supply and is capable of picking up various objects.
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 ```HTML 
 <?--- This is an HTML comment in Markdown -->
