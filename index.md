@@ -1,4 +1,4 @@
-#Smooth High Torque 3-Axis Robot Controllable with a Controller
+# Smooth High Torque 3-Axis Robot Controllable with a Controller
 
 My project is a high torque 3-axis robot which is controllable via two joysticks and uses something called numerical interpolation to smooth servo motions. Along with this, it is powered by a 12V 6A power supply and is capable of picking up various objects.
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
