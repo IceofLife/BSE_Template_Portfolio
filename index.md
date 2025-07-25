@@ -55,7 +55,6 @@ I plan for this project to become a 4-axis robot with a 4th axis on the wrist. I
 # Schematics 
 [3D Print Schematic](3dprintschem.png) [Circuit Schematic](circuitschematic.png)
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #include <Arduino.h>    
