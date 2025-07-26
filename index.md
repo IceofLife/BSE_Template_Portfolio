@@ -206,14 +206,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Robot Arm for Arduino, Smart Robot Building Kit That can Memorize and Repeat Movements for Beginners/Teens/Adults to Learn Electronic, Programming, Math and Science | Robotic Arm Base Structure | $50 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
+| Deegoo [4-Pack] MG996R 55g Metal Gear Torque Digital Servo Motor for Futaba JR RC Helicopter Car Boat Robot| High Torque Servo to Control Joint | $17 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Miuzei 20KG Servo Motor High Torque RC Servo Metal Gear Waterproof for 1/8, 1/10, 1/12 R/C Model DIY Car Robot, DS3218, Control Angle 270° ﻿ | High Torque Servo to Control Join| $13 | <a href="https://www.amazon.com/dp/B07HNTKSZT?ref=cm_sw_r_cso_cp_apin_dp_6C7MHJ53PXJZSEX18K8M&ref_=cm_sw_r_cso_cp_apin_dp_6C7MHJ53PXJZSEX18K8M&social_share=cm_sw_r_cso_cp_apin_dp_6C7MHJ53PXJZSEX18K8M&previewDohEventScheduleTesting=C&csmig=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
