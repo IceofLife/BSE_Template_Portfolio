@@ -211,5 +211,6 @@ void loop() {
 | Arduino Nano | Microcontroller| $25 | <a href="https://a.co/d/1AVNpgq"> Link </a> |
 | EBOOT T8 Repair Screwdriver Compatible with Xbox One, Xbox 360 Controller and PS3, Blue | Screwdriver | $6.50 | <a href="https://www.amazon.com/Screwdriver-Xbox-One-360-Controller-PS3/dp/B01ESPNBB2"> Link </a> |
 | ELEGOO 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Ribbon Cables Kit Compatible with Arduino Projects | Wire Extensions | $7 | <a href="https://a.co/d/5ya6PP6"> Link </a> |
-| 1760pcs M2 M3 M4 M5 Metric Screw Assortment, Grade 12.9 Alloy Steel Hex Socket Head Cap Bolts and Nuts Kit, Black Zinc Plated and Anti Rust Screw Set with 4 pcs Hex Wrenches | Nuts and Bolts for 3D Printed Mods | $7 | <a href="https://a.co/d/eawcq2k"> Link </a> |
+| 1760pcs M2 M3 M4 M5 Metric Screw Assortment, Grade 12.9 Alloy Steel Hex Socket Head Cap Bolts and Nuts Kit, Black Zinc Plated and Anti Rust Screw Set with 4 pcs Hex Wrenches | Nuts and Bolts for 3D Printed Mods | $26 | <a href="https://a.co/d/eawcq2k"> Link </a> |
+| HiLetgo 5pcs Nano I/O Expansion Sensor Shield for Arduino UNO R1 Nano 3.0 Duemilanove 2009 | Servo Shield | $11 | <a href="https://a.co/d/fAJERyY"> Link </a> |
 
