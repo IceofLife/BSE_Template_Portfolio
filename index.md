@@ -6,7 +6,7 @@ My project is a high torque 3-axis robot which is controllable via two joysticks
 
 
 
-![Project](/bluestamproject.jpg)
+![Project](bluestampproject.jpg)
   
 # Final Milestone
 
