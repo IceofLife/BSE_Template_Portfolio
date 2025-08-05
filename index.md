@@ -8,20 +8,14 @@ My project is a high torque 3-axis robot which is controllable via two joysticks
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-[Headstone Image](logo.svg)
+[Headstone Image](bluestampproject.jpg)
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vt51Qg26snA?si=FuyMewWrRG-MJo21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+For my final milestone I have added the servo brackets along with an extended 3D printed wrist section in order to avoid gripper collision with the brackets. Along with this, I also used numerical interpolation for my code, that is shown if you scroll down a little on this webpage, in order to smooth servo motion. Both of these resulted in really smooth motion as compared earlier and it seems like I was right in hypothesizing that the servo quality does effect the amount of backlash and overall smoothness of the servo's motions. I think my code also helped a lot in this process aswell. Some of my main challenges were the short circuits I experienced with excess voltage, 3D printing tolerances, and coding the arm but by far I think the hardest challenge to overcome and what my project eventually spiraled into fixing was the robot spazzing out. I initally just wanted to add another joint for more freedom on the robot arm but after considering the weight limit and spazzing out that the arm had I eventually dove completely into solving these issues until I fixed it with higher torque servos and numerical interpolation. The main topics that I learned about were numerical interpolation (explained in Milestone 2), how to code, the relationship between voltage and amps, organization, stall torque, and detente torque. In the future, I really just want to learn literally everything about engineering (Linear Algebra, Fluid Mechanics, Bending Moments, Multivariable Calculus, Thermodynamics, Maxwell's equations, etc..) as I have this neverending thirst for knowledge that I feel can only be satiated through just learning everything. I really love engineering and Bluestamp provided the perfect learning ground to improve my engineering knowledge. 
 
 
 
